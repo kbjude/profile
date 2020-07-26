@@ -52,6 +52,10 @@
     display: flex;
 }
 
+.socialmedia-item {
+    font-size: 10px;
+}
+
 .content-block {
     /* max-width: 50%; */
     max-height: 90%;

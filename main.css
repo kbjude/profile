@@ -74,6 +74,7 @@
 
 @media (max-width: 480px) { 
     .main-page {
+        overflow-x: hidden;
         max-width: 90%;
         display: inline;
     }

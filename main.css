@@ -9,3 +9,8 @@
 .socialmedia {
     display: flex;
 }
+
+.content-block {
+    max-width: 50%;
+    height: 100%;
+}

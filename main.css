@@ -1,20 +1,4 @@
-@media screen and (max-width: 1400px) and (min-width: 700px) {
 
-    .left-side {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        position: relative;
-        margin-left: 40em;
-    }
-    
-    .main-block {
-        width: 60%;
-        padding: 80px 20px;
-        position: fixed;
-    }
-    
-}
 
 .main-page {
     display: flex;
@@ -38,17 +22,17 @@
     position: fixed;
 }
 
-.block1 {
-    display: flex;
-    flex-direction: column;
-}
-
 .left-side {
     display: flex;
     flex-direction: column;
     max-width: 100%;
     position: relative;
     margin-left: 46%;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
 }
 
 #kash_image {
@@ -87,3 +71,30 @@
 .cont-multipleimages {
     display: flex;
 }
+
+@media (max-width: 480px) { 
+    .main-page {
+        max-width: 100%;
+    }
+
+    .text-description {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 150px;
+    }
+
+    .main-block {
+        width: 100%;
+        position: relative;
+        padding: 10px 20px;
+    }
+
+    .titles {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .left-side {
+        width: 100%;
+        margin: 0;
+    }
+} 

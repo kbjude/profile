@@ -1,13 +1,18 @@
 .main-page {
     display: flex;
-    width: 90%;
+    max-width: 100%;
     justify-content: space-between;
 }
 
 .block1 {
     display: flex;
     flex-direction: column;
-    padding: 6%;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 #kash_image {
@@ -33,8 +38,8 @@
 }
 
 .content-block {
-    max-width: 50%;
-    max-height: 100%;
+    /* max-width: 50%; */
+    max-height: 90%;
 }
 
 .cont-multipleimages {

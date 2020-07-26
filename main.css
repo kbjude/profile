@@ -1,11 +1,11 @@
-@media screen and (min-width: 1100) {
+@media screen and (max-width: 1400px) and (min-width: 700px) {
 
     .left-side {
         display: flex;
         flex-direction: column;
         max-width: 100%;
         position: relative;
-        margin-left: 55em;
+        margin-left: 40em;
     }
     
     .main-block {
@@ -48,7 +48,7 @@
     flex-direction: column;
     max-width: 100%;
     position: relative;
-    margin-left: 55em;
+    margin-left: 46%;
 }
 
 #kash_image {

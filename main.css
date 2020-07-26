@@ -1,0 +1,11 @@
+.main-page {
+    display: flex;
+}
+
+#kash_image {
+    width: 70px;
+}
+
+.socialmedia {
+    display: flex;
+}

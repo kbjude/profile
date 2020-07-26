@@ -85,7 +85,7 @@
 
     .main-block {
         width: 100%;
-        position: absolute;
+        position: relative;
         padding: 10px 20px;
     }
 
@@ -97,6 +97,14 @@
     .left-side {
         margin-left: 0;
         width: 100%;
+    }
+
+    .screenshot1 {
+        width: 100%;
+    }
+
+    .cont-multipleimages {
+        display: none;
     }
 } 
 

@@ -75,6 +75,7 @@
 @media (max-width: 480px) { 
     .main-page {
         max-width: 90%;
+        display: inline;
     }
 
     .text-description {
@@ -94,7 +95,8 @@
     }
 
     .left-side {
-        display: none;
-
+        border: solid 1px red;
+        margin-left: 0;
+        width: 100%;
     }
 } 

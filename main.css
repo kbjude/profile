@@ -17,6 +17,11 @@
 
 #mobile-kash_image {
     max-width: 50%;
+    vertical-align: middle;
+}
+
+#mobile-dash_image {
+    width: 30%;
 }
 
 .screenshot1 {
@@ -29,5 +34,9 @@
 
 .content-block {
     max-width: 50%;
-    height: 100%;
+    max-height: 100%;
+}
+
+.cont-multipleimages {
+    display: flex;
 }

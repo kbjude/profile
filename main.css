@@ -4,6 +4,13 @@
     justify-content: space-between;
 }
 
+.main-block {
+    width: 60%;
+    position: fixed;
+    position: sticky;
+    top: 0;
+}
+
 .block1 {
     display: flex;
     flex-direction: column;
@@ -40,7 +47,8 @@
 .content-block {
     /* max-width: 50%; */
     max-height: 90%;
-    margin-left: 20%;
+    margin-left: 4%;
+    padding: 5%;
 }
 
 .cont-multipleimages {

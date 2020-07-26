@@ -6,9 +6,7 @@
 
 .main-block {
     width: 60%;
-    position: fixed;
-    position: sticky;
-    top: 0;
+    padding: 80px 20px;
 }
 
 .block1 {

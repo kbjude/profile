@@ -2,8 +2,9 @@
     display: flex;
 }
 
-#kash_image {
-    width: 70px;
+#kash_image, .screenshot1 {
+    width: 20%;
+    height: 20%;
 }
 
 .socialmedia {

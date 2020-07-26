@@ -1,10 +1,15 @@
 .main-page {
     display: flex;
+    width: 80%;
 }
 
-#kash_image, .screenshot1 {
-    width: 20%;
-    height: 20%;
+#kash_image {
+    width: 90%;
+    height: 80%;
+}
+
+.screenshot1 {
+    width: 90%;
 }
 
 .socialmedia {

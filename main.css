@@ -4,6 +4,16 @@
     justify-content: space-between;
 }
 
+.titles {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+}
+
 .main-block {
     width: 60%;
     padding: 80px 20px;

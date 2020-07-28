@@ -24,8 +24,9 @@ Allows users to manage hours of every activity they are doing like reading, pray
   
 ## TESTING
 No tests
-      
-  ### [Live Demo](https://secret-eyrie-76096.herokuapp.com/sessions/new)
+
+      Once the develop branch is merged to master find the live link here
+  ### [Live Demo](https://kbjude.github.io/profile/.)
 
 ### Technologies Used
 HTML

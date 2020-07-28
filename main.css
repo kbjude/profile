@@ -45,20 +45,20 @@
     vertical-align: middle;
 }
 
-#mobile-dash_image {
+.mobile-dash_image {
     width: 40%;
 }
 
-#hours-ipad {
+.hours-ipad {
     height: 90%;
     width: 30%;
 }
 
-#smaller-device {
+.smaller-device {
     width: 90%;
 }
 
-#mobile-smaller-device {
+.mobile-smaller-device {
     width: 80%;
 }
 

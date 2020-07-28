@@ -1,0 +1,151 @@
+
+
+.main-page {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.titles {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 200px;
+}
+
+.main-block {
+    width: 60%;
+    padding: 80px 20px;
+    position: fixed;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+    margin-left: 46%;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.kash_image {
+    width: 90%;
+    height: 80%;
+}
+
+.mobile-kash_image {
+    max-width: 60%;
+    vertical-align: middle;
+}
+
+#mobile-dash_image {
+    width: 40%;
+}
+
+#hours-ipad {
+    height: 90%;
+    width: 30%;
+}
+
+#smaller-device {
+    width: 90%;
+}
+
+#mobile-smaller-device {
+    width: 80%;
+}
+
+.screenshot1 {
+    width: 90%;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia-item {
+    font-size: 10px;
+}
+
+.content-block {
+    max-height: 90%;
+    margin-left: 4%;
+    padding: 5%;
+    margin-bottom: 100px;
+}
+
+.cont-multipleimages {
+    display: flex;
+}
+
+@media (max-width: 480px) { 
+    .main-page {
+        overflow-x: hidden;
+        max-width: 90%;
+        display: inline;
+    }
+
+    .text-description {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 150px;
+    }
+
+    .main-block {
+        width: 100%;
+        position: relative;
+        padding: 10px 20px;
+    }
+
+    .titles {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .left-side {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .screenshot1 {
+        width: 100%;
+    }
+
+    .cont-multipleimages {
+        display: none;
+    }
+} 
+
+@media (min-width: 481px) and (max-width: 767px) { 
+    .main-page {
+        max-width: 90%;
+        display: inline;
+    }
+
+    .text-description {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 150px;
+    }
+
+    .main-block {
+        width: 90%;
+        position: relative;
+        padding: 10px 20px;
+    }
+
+    .titles {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .left-side {
+        margin-left: 0;
+        width: 100%;
+    }
+} 

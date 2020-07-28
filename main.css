@@ -35,12 +35,12 @@
     flex-direction: column;
 }
 
-#kash_image {
+.kash_image {
     width: 90%;
     height: 80%;
 }
 
-#mobile-kash_image {
+.mobile-kash_image {
     max-width: 60%;
     vertical-align: middle;
 }

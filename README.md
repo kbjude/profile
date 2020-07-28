@@ -1,6 +1,4 @@
 # Portfolio
-
-## Group Hours
 This project describes me as an individual a few of the project that i have worked on both for clients and on my learning Journey. These project have contributed to my being shaped and into the Engineer that i am today. They are in Ruby on rails, Java script and HTMl sofar.
 
 ### Requirements

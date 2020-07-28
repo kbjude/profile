@@ -49,6 +49,11 @@
     width: 40%;
 }
 
+#hours-ipad {
+    height: 90%;
+    width: 30%;
+}
+
 #smaller-device {
     width: 90%;
 }

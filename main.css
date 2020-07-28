@@ -33,6 +33,7 @@
 .block1 {
     display: flex;
     flex-direction: column;
+    border: solid 1px;
 }
 
 #kash_image {
@@ -47,6 +48,10 @@
 
 #mobile-dash_image {
     width: 30%;
+}
+
+#smaller-device {
+    width: 90%;
 }
 
 .screenshot1 {

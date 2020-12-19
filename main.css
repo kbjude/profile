@@ -120,6 +120,14 @@ a:link {
     color: white;
     text-decoration: none;
   }
+
+  .white {
+    color: paleturquoise;
+}
+
+  .white:hover {
+      color: cornflowerblue;
+  }
   
   /* selected link */
   a:active {

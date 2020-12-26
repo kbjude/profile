@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     max-height: 100%;
+    position: relative
 }
 
 .kash_image {
@@ -139,10 +140,51 @@ a:link {
     display: flex;
 }
 
+.buttons {
+    margin-top: 4%;
+}
+
+.text {
+    position: absolute;
+    opacity: 1;
+    position: absolute;
+
+    background-color: white;
+    width: 80%;
+   border-radius: 10px;
+}
+
+.text {
+    top: 8%;
+}
+
+.text2 {
+    top: 41%;
+}
+
+.text3 {
+    top: 55%
+}
+
+.text4 {
+    top: 76%;
+}
+
+.tools {
+    width: 5%;
+    height: 5%;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (max-width: 480px) { 
     .main-page {
         overflow-x: hidden;
-        max-width: 90%;
+        max-width: 100%;
         display: inline;
     }
 
@@ -177,9 +219,8 @@ a:link {
 } 
 
 @media (min-width: 481px) and (max-width: 767px) { 
-    .main-page {
-        max-width: 90%;
-        display: inline;
+    .main-block {
+        max-width: 100%;
     }
 
     .text-description {
@@ -188,9 +229,9 @@ a:link {
     }
 
     .main-block {
-        width: 90%;
+        width: 100%;
         position: relative;
-        padding: 10px 20px;
+  
     }
 
     .titles {
@@ -199,6 +240,7 @@ a:link {
     }
 
     .left-side {
+        display: flex;
         margin-left: 0;
         width: 100%;
     }

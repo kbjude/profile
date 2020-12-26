@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     max-height: 100%;
+    position: relative
 }
 
 .kash_image {
@@ -137,6 +138,27 @@ a:link {
 
 .cont-multipleimages {
     display: flex;
+}
+
+.buttons {
+    margin-top: 4%;
+}
+
+.text {
+    position: absolute;
+    opacity: 1;
+    position: absolute;
+    top: 10%;
+    background-color: #a29bfe;
+    color: white;
+    width: 80%;
+    margin-left: 1%;
+   border-radius: 10px;
+}
+
+.tools {
+    width: 5%;
+    height: 5%;
 }
 
 @media (max-width: 480px) { 

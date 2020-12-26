@@ -159,6 +159,13 @@ a:link {
 .tools {
     width: 5%;
     height: 5%;
+    justify-content: space-evenly;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
 }
 
 @media (max-width: 480px) { 

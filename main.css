@@ -149,11 +149,14 @@ a:link {
     opacity: 1;
     position: absolute;
     top: 10%;
-    background-color: #a29bfe;
-    color: white;
+    background-color: white;
     width: 80%;
     margin-left: 1%;
    border-radius: 10px;
+}
+
+.text2 {
+    top: 55%;
 }
 
 .tools {
@@ -165,7 +168,6 @@ a:link {
 .icons {
     display: flex;
     justify-content: space-evenly;
-}
 }
 
 @media (max-width: 480px) { 

@@ -181,8 +181,19 @@ a:link {
     justify-content: space-evenly;
 }
 
+.footer {
+    position: fixed;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 @media (max-width: 480px) { 
     .main-page {
+        position: fixed;
         overflow-x: hidden;
         max-width: 100%;
         display: inline;

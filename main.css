@@ -148,15 +148,26 @@ a:link {
     position: absolute;
     opacity: 1;
     position: absolute;
-    top: 10%;
+
     background-color: white;
     width: 80%;
-    margin-left: 1%;
    border-radius: 10px;
 }
 
+.text {
+    top: 8%;
+}
+
 .text2 {
-    top: 55%;
+    top: 41%;
+}
+
+.text3 {
+    top: 55%
+}
+
+.text4 {
+    top: 76%;
 }
 
 .tools {

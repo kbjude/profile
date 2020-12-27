@@ -163,11 +163,11 @@ a:link {
 }
 
 .text3 {
-    top: 55%
+    top: 59%
 }
 
 .text4 {
-    top: 76%;
+    top: 85%;
 }
 
 .tools {
@@ -181,8 +181,19 @@ a:link {
     justify-content: space-evenly;
 }
 
+.footer {
+    position: fixed;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 @media (max-width: 480px) { 
     .main-page {
+        position: fixed;
         overflow-x: hidden;
         max-width: 100%;
         display: inline;

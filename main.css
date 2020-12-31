@@ -197,7 +197,8 @@ a:link {
     color: white;
     top: -9px;
     right: -10px;
-    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 1%;
 }
 
 @media (max-width: 480px) { 

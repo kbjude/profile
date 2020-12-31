@@ -191,6 +191,36 @@ a:link {
     width: 100%;
 }
 
+#x {
+    position: absolute;
+    background: red;
+    color: white;
+    top: -9px;
+    right: -10px;
+    margin-right: 2%;
+    margin-top: 1.2%;
+}
+
+#xi {
+    position: absolute;
+    background: red;
+    color: white;
+    top: -9px;
+    right: -10px;
+    margin-right: 2%;
+    margin-top: 1.6%;
+}
+
+#xii {
+    position: absolute;
+    background: red;
+    color: white;
+    top: -9px;
+    right: -10px;
+    margin-right: 2%;
+    margin-top: 1.6%;
+}
+
 @media (max-width: 480px) { 
     .main-page {
         position: fixed;
